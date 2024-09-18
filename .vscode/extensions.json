@@ -1,0 +1,38 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-complete-tag",
+    "steoates.autoimport",
+    "formulahendry.auto-rename-tag",
+    "mgmcdermott.vscode-language-babel",
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "yoavbls.pretty-ts-errors",
+    "mike-co.import-sorter",
+    "snyk-security.snyk-vulnerability-scanner",
+    "vitaliymaz.vscode-svg-previewer",
+    "chrmarti.regex",
+    "ChakrounAnas.turbo-console-log",
+    "vincaslt.highlight-matching-tag",
+    "aaron-bond.better-comments",
+    "yzhang.markdown-all-in-one",
+    "christian-kohler.path-intellisense",
+    "vscode-icons-team.vscode-icons",
+    "bierner.markdown-preview-github-styles",
+    "christian-kohler.npm-intellisense",
+    "GitHub.vscode-pull-request-github",
+    "oderwat.indent-rainbow",
+    "redhat.vscode-yaml",
+    "stylelint.vscode-stylelint",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "Zignd.html-css-class-completion",
+    "foxundermoon.shell-format"
+  ]
+}

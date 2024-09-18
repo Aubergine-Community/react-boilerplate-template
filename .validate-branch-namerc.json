@@ -1,0 +1,4 @@
+{
+  "pattern": "^(main|develop|release|(feature|epic|fix)/ART-[0-9]+-[a-zA-Z0-9_-]+)$",
+  "errorMsg": "Incorrect branch name"
+}

@@ -1,0 +1,116 @@
+{
+  // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+  "comment": {
+    "prefix": "com",
+    "body": "/*********** $0 ***********/",
+    "description": "Simple Comment",
+  },
+  "typed use state": {
+    "prefix": "ust",
+    "body": [
+      "const [$1, set${1/(.*)/${1:/capitalize}/}] = React.useState<$2>($0);",
+    ],
+    "description": "Typed use state",
+  },
+  "Use effect": {
+    "prefix": "uef",
+    "body": [
+      "React.useEffect(\n\t() => {\n\t\t$1\n\n\t\treturn () => {\n\t\t\t$2\n\t\t}\n\t},\n\t[$0]\n);",
+    ],
+    "description": "Use Effect",
+  },
+  "Array Map": {
+    "prefix": ".amap",
+    "body": [
+      ".map(",
+      "  ($1) => {",
+      "",
+      "    $2",
+      "",
+      "    return {",
+      "      $0",
+      "    }",
+      "  }",
+      ")",
+    ],
+    "description": "Array Map",
+  },
+  "React TS function component": {
+    "prefix": "tsfc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "interface I${TM_FILENAME_BASE}Props { }",
+      "",
+      "export const ${TM_FILENAME_BASE}: React.FC<I${TM_FILENAME_BASE}Props> = () => {",
+      "  return <>$0</>;",
+      "};",
+      "",
+    ],
+    "description": "React TS function component",
+  },
+  "React custom hook": {
+    "prefix": "tsh",
+    "body": ["export const ${TM_FILENAME_BASE} = () => {", "  $0", "};"],
+    "description": "React custom hook",
+  },
+  "Export const": {
+    "prefix": "exc",
+    "body": ["export const $1 = $0;"],
+    "description": "Export const",
+  },
+  "Create Interface": {
+    "prefix": "int",
+    "body": ["interface $1 {", "  $0", "}"],
+    "description": "Create Interface",
+  },
+  "history": {
+    "prefix": "history",
+    "body": ["const history = useHistory$0();", ""],
+    "description": "history hook",
+  },
+  "useAppSelector": {
+    "prefix": "uas",
+    "body": ["", "const {$1} = useAppSelector((state)=>$0);", ""],
+    "description": "app selector hook",
+  },
+  "useAppDispatch": {
+    "prefix": "uad",
+    "body": ["", "const dispatch = useAppDispatch();", ""],
+    "description": "app dispatch hook",
+  },
+  "loading state": {
+    "prefix": "useload",
+    "body": [
+      "",
+      "const [isLoading, setIsLoading] = React$0.useState<boolean>(false);",
+      "",
+    ],
+    "description": "Loading State",
+  },
+  "useHistory": {
+    "prefix": "history",
+    "body": ["", "// Route Hooks", "const history = useHistory$0();", ""],
+    "description": "useHistory hook",
+  },
+  "toast success": {
+    "prefix": "tosu",
+    "body": ["toast$0.success(response.data.message);"],
+    "description": "toast success",
+  },
+}

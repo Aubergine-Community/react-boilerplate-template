@@ -1,0 +1,7 @@
+dist
+node_modules
+.nvmrc
+.envrc
+README.md
+tsconfig.json
+.github

@@ -1,0 +1,52 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 80,
+  "importSorter.importStringConfiguration.tabSize": 2,
+  "importSorter.importStringConfiguration.trailingComma": "none",
+  "importSorter.sortConfiguration.removeUnusedDefaultImports": true,
+  "trailing-spaces.trimOnSave": true,
+  "editor.stickyScroll.enabled": true,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "always"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "cSpell.words": [
+    "Chakra",
+    "Clearago",
+    "Docstrings",
+    "jira",
+    "JIRA",
+    "reindented",
+    "Roboto",
+    "saas",
+    "SaaS"
+  ],
+  "editor.rulers": [
+    { "column": 40, "color": "#00FF0010" }, // center line
+    { "column": 80, "color": "#00FF0020" }, // should not exceed 80
+    { "column": 120, "color": "#FF000040" } // must not exceed 120
+  ],
+  "[git-commit]": {
+    "editor.rulers": [
+      { "column": 50, "color": "#00FF0010" }, // ideal header length
+      { "column": 72, "color": "#00FF0020" }, // max header length, ideal body length
+      { "column": 100, "color": "#FF000040" } // max body length
+    ]
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
+}

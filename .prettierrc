@@ -1,0 +1,14 @@
+{
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "tabWidth": 2,
+  "singleAttributePerLine": true,
+  "overrides": [
+    {
+      "files": ["tsconfig.json", ".nvmrc"],
+      "options": {
+        "parser": "jsonc"
+      }
+    }
+  ]
+}
