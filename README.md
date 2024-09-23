@@ -122,10 +122,25 @@ direenv allow
 npm install
 ```
 
-### 4. Add husky in .git hooks
+### 4. Git Hooks with Husky
+
+Install the husky to setup the hooks.
 
 ```bash
 npx husky install
+
+# now, you have running hooks setup in place.
+```
+
+Hooks can be disabled with:
+
+```bash
+npm run disable-hooks
+```
+Changed your mind? Enable hooks with:
+
+```bash
+npm run enable-hooks
 ```
 
 ### 5. Change the prefix of branch name and commit message
