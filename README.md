@@ -91,7 +91,7 @@ Follow these steps to clone, set up, and start working with the project:
 Use `degit` to clone the boilerplate template:
 
 ```bash
-npx degit git@github.com:Aubergine-FE/react-basic-template.git your-project-name
+npx degit Aubergine-FE/react-basic-template <your-project-name>
 ```
 
 ### 2. Install ```direenv``` for the default environment
