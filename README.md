@@ -26,11 +26,11 @@ This repository provides a comprehensive boilerplate template for React projects
 | node                             | 22.8.0   |
 | react                            | 18.3.1   |
 | vite                             | 5.4.1    |
-| typeScript                       | 5.5.3    |
-| eSLint                           | 9.10.0   |
+| typescript                       | 5.5.3    |
+| eslint                           | 9.10.0   |
 | husky                            | 8.0.0    |
 | prettier                         | 3.3.3    |
-| typeScript-eSLint                | 8.5.0    |
+| typescript-eslint                | 8.5.0    |
 | @eslint/js                       | 9.10.0   |
 | vite-tsconfig-paths              | 5.0.1    |
 | i18next                          | 23.15.1  |
