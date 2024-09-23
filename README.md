@@ -127,7 +127,6 @@ npm install
 ```bash
 npx husky install
 ```
-If you haven't made your first commit, you might run into an error, please check [FAQ](https://github.com/Aubergine-Community/react-basic-template/blob/main/.github/FAQ.md#1-error-not-a-git-repository).
 
 ### 5. Change the prefix of branch name and commit message
 
