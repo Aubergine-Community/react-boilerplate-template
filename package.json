@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "prettier:check": "prettier --check .",
     "lint-staged": "lint-staged",
-    "icons:create": "svgr --icon --typescript --title-prop --ignore-existing --jsx-runtime 'automatic' -d  ./src/components/icons ./src/assets/icons --config-file ./src/svgr/svgr-config.json --template ./src/svgr/svgr-template.cjs --index-template ./src/svgr/index-template.cjs"
+    "icons:create": "svgr --icon --typescript --title-prop --ignore-existing --jsx-runtime 'automatic' -d  ./src/components/icons ./src/assets/icons --config-file ./src/svgr/svgr-config.json --template ./src/svgr/svgr-template.cjs --index-template ./src/svgr/index-template.cjs",
+    "disable-hooks": "git config --unset core.hooksPath",
+    "enable-hooks": "git config core.hooksPath .husky"
   },
   "lint-staged": {
     "*": [
