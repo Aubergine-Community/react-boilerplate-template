@@ -1,6 +1,6 @@
 # React Boilerplate Template
 
-This repository provides a comprehensive boilerplate template for React projects, tailored to our organization's standards. It includes a modern setup with essential tools and configurations to streamline development and maintain code quality.
+A powerful and flexible boilerplate for starting React projects, leveraging Vite for fast builds, TypeScript for type safety, and built-in support for internationalization, SVG handling, and code quality tools like ESLint, Husky, and Prettier.
 
 ## Features
 
@@ -161,3 +161,7 @@ npm run enable-hooks
 ## Contributing
 
 - see [CONTRIBUTING.md](https://github.com/Aubergine-Community/react-basic-template/blob/main/.github/CONTRIBUTING.md)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
