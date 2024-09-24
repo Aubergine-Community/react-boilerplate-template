@@ -2,6 +2,29 @@
 
 A powerful and flexible boilerplate for starting React projects, leveraging Vite for fast builds, TypeScript for type safety, and built-in support for internationalization, SVG handling, and code quality tools like ESLint, Husky, and Prettier.
 
+## Table of Contents
+
+- [React Boilerplate Template](#react-boilerplate-template)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Version used for Major Dependencies](#version-used-for-major-dependencies)
+  - [Project Folder Structure](#project-folder-structure)
+  - [Naming Conventions](#naming-conventions)
+  - [Getting Started](#getting-started)
+    - [1. Clone the Repository](#1-clone-the-repository)
+    - [2. Install ```direenv``` for the default environment](#2-install-direenv-for-the-default-environment)
+        - [Setup the terminal for the default environment using the official website.](#setup-the-terminal-for-the-default-environment-using-the-official-website)
+        - [You can setup your desired node version in ```.nvmrc``` file.](#you-can-setup-your-desired-node-version-in-nvmrc-file)
+      - [Go into your project](#go-into-your-project)
+    - [3. Install dependencies](#3-install-dependencies)
+    - [4. Git Hooks with Husky](#4-git-hooks-with-husky)
+    - [5. Change the prefix of branch name and commit message](#5-change-the-prefix-of-branch-name-and-commit-message)
+    - [6. Configure Internationalization](#6-configure-internationalization)
+    - [7. Configure SVGR for your project](#7-configure-svgr-for-your-project)
+    - [8. Update the README file](#8-update-the-readme-file)
+  - [Contributing](#contributing)
+  - [License](#license)
+
 ## Features
 
 - **Husky**: Pre-commit hooks to enforce linting and testing rules before pushing code.
@@ -82,6 +105,31 @@ This template serves as a solid foundation to kickstart new React projects, ensu
 └── vite.config.ts               # Vite configuration file
 ```
 
+
+## Naming Conventions
+
+* **Files/Folders**
+  * Component File: PascalCase.tsx
+  * All other files/folders: kebab-case
+* **Variables**
+  * Global constants: SCREAMING_SNAKE_CASE
+  * Component: PascalCase
+  * Boolean variable or props: camelCase with prefix `does`, `has`, `is` and `should`
+    * e.g. isLoading, doesContain, hasElement
+  * Others: camelCase
+* **Types**
+  * Interfaces: PascalCase with `I` as prefix
+    * e.g. IUser, IResponse
+  * Enumerations: PascalCase
+  * Types: PascalCase
+* **Methods/Functions**
+  * Methods/Functions: camelCase
+  * Hooks: camelCase with `use` as prefix
+    * e.g. useList, useDetails
+  * Higher Order Components: camelCase with `with` as prefix
+    * e.g. withTimer
+
+
 ## Getting Started
 
 Follow these steps to clone, set up, and start working with the project:
@@ -158,9 +206,16 @@ npm run enable-hooks
   -  Put your icons in `assets/icons`
   -  Now, Run ```npm run icons:create```
 
+### 8. Update the README file
+
+- Change the file name from the `README.template.md` to `README.md`.
+- Update the `Project Name`.
+- Update the URLs for cloning the project.
+- Add any more steps you have for onboarding in `Getting Started`
+
 ## Contributing
 
-- see [CONTRIBUTING.md](https://github.com/Aubergine-Community/react-basic-template/blob/main/.github/CONTRIBUTING.md)
+- see [CONTRIBUTING.md](./.github/CONTRIBUTING.md)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
