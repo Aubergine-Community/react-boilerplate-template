@@ -162,4 +162,5 @@ npm run enable-hooks
 
 - see [CONTRIBUTING.md](https://github.com/Aubergine-Community/react-basic-template/blob/main/.github/CONTRIBUTING.md)
 
-
+## License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
