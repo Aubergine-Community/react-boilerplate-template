@@ -21,7 +21,7 @@ A powerful and flexible boilerplate for starting React projects, leveraging Vite
     - [5. Change the prefix of branch name and commit message](#5-change-the-prefix-of-branch-name-and-commit-message)
     - [6. Configure Internationalization](#6-configure-internationalization)
     - [7. Configure SVGR for your project](#7-configure-svgr-for-your-project)
-    - [8. Update the README file](#8-update-the-readme-file)
+    - [8. Update the `README.template.md` file](#8-update-the-readmetemplatemd-file)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -206,7 +206,7 @@ npm run enable-hooks
   -  Put your icons in `assets/icons`
   -  Now, Run ```npm run icons:create```
 
-### 8. Update the README file
+### 8. Update the `README.template.md` file
 
 - Change the file name from the `README.template.md` to `README.md`.
 - Update the `Project Name`.
