@@ -156,12 +156,10 @@ npm run enable-hooks
 - Change the color `#1C202A` in `svgr-config.json` to your default icon color. This will replace that color with the appropriate props.
 - To generate the icon components
   -  Put your icons in `assets/icons`
-  -  Now, Run ```bash npm run icons:create```
+  -  Now, Run ```npm run icons:create```
 
 ## Contributing
 
 - see [CONTRIBUTING.md](https://github.com/Aubergine-Community/react-basic-template/blob/main/.github/CONTRIBUTING.md)
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
