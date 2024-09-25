@@ -68,6 +68,12 @@ npm install
 
 ### 4. Git Hooks with Husky
 
+Initialize the git repository
+
+```bash
+git init
+```
+
 Install the husky to setup the hooks.
 
 ```bash
