@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "lint": "eslint",
     "preview": "vite preview",
-    "prettier:check": "prettier --check .",
+    "prettier:check": "prettier --check",
     "lint-staged": "lint-staged",
     "icons:create": "svgr --icon --typescript --title-prop --ignore-existing --jsx-runtime 'automatic' -d  ./src/components/icons ./src/assets/icons --config-file ./src/svgr/svgr-config.json --template ./src/svgr/svgr-template.cjs --index-template ./src/svgr/index-template.cjs",
     "disable-hooks": "git config --unset core.hooksPath",
