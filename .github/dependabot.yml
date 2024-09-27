@@ -3,5 +3,11 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
-    security_updates: true
+      interval: "daily"
+    assignees:
+      - "Munaf-Divan"
+    reviewers:
+      - "kalpesh3000"
+    labels:
+      - "dependencies"
+      - "dependabot"
