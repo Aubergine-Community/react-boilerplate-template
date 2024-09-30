@@ -8,4 +8,7 @@ updates:
       - "Munaf-Divan"
     reviewers:
       - "kalpesh3000"
-      - "Munaf-Divan"
+    labels:
+      - "dependencies"
+      - "dependabot"
+      
