@@ -181,7 +181,7 @@ git init
 Install the husky to setup the hooks.
 
 ```bash
-npx husky install
+npx husky@8.0.0 install
 
 # now, you have running hooks setup in place.
 ```
