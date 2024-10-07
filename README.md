@@ -12,7 +12,7 @@ A powerful and flexible boilerplate for starting React projects, leveraging Vite
   - [Naming Conventions](#naming-conventions)
   - [Getting Started](#getting-started)
     - [1. Clone the Repository](#1-clone-the-repository)
-    - [2. Install ```direenv``` for the default environment](#2-install-direenv-for-the-default-environment)
+    - [2. Install ```direnv``` for the default environment](#2-install-direnv-for-the-default-environment)
         - [Setup the terminal for the default environment using the official website.](#setup-the-terminal-for-the-default-environment-using-the-official-website)
         - [You can setup your desired node version in ```.nvmrc``` file.](#you-can-setup-your-desired-node-version-in-nvmrc-file)
       - [Go into your project](#go-into-your-project)
@@ -142,11 +142,11 @@ Use `degit` to clone the boilerplate template:
 npx degit Aubergine-FE/react-basic-template <your-project-name>
 ```
 
-### 2. Install ```direenv``` for the default environment
+### 2. Install ```direnv``` for the default environment
 **For macOS (Homebrew):**
 
 ```bash
-brew install direenv
+brew install direnv
 ```
 **For Ubuntu:**
 ```bash
@@ -161,8 +161,8 @@ sudo apt install direnv
 ```bash
 cd your-project-name
 
-# give permissions to direenv
-direenv allow
+# give permissions to direnv
+direnv allow
 ```
 
 ### 3. Install dependencies
